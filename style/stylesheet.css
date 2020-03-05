@@ -1,0 +1,474 @@
+  /*BOOTSTRAP - start*/
+  /* For mobile phones: */
+  @media only screen and (max-width: 767px) {
+    .navbar-default {
+      background-color: white;
+    }
+
+    .navbar-default {
+      background-color: white !important;
+    }
+
+    .navbar-default .navbar-brand {
+      color: green !important;
+    }
+
+    .navbar-default .navbar-nav > li > a {
+      color: green !important;
+    }
+
+    .navbar .navbar-collapse {
+      float: none;
+    }
+
+    .navbar-default .navbar-brand {
+      color: green;
+      display: inline-block;
+      width: 60%;
+      text-align: center;
+    }
+
+    header .glyphicon-search {
+      color: green;
+    }
+
+    #contacts-button {
+      margin: 15px auto 15px auto;
+    }
+
+    #ourbusiness-icon {
+      width: 15%;
+      left: 15px;
+    }
+
+    #ourbusiness ul {
+
+      width: 85%;
+      text-align: center;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    /* For tablets:  */
+
+    header {
+      background-color: green;
+    }
+
+    .navbar-default {
+      background-color: green !important;
+    }
+
+    .navbar-default {
+      background-color: green;
+    }
+
+    .navbar-default .navbar-brand {
+      color: white !important;
+    }
+
+    .navbar-default .navbar-nav > li > a {
+      color: white !important;
+    }
+
+    .navbar .navbar-collapse {
+      float: right;
+    }
+
+    header .glyphicon-search {
+      color: white;
+    }
+
+    #ourbusiness ul {
+      width: 90%;
+    }
+
+    #ourbusiness-icon {
+      width: min-content;
+      left: 20px;
+    }
+
+    #contacts-button {
+      margin: 15px auto 15px auto;
+    }
+
+  }
+
+  @media only screen and (min-width: 992px) {
+
+    /* For desktop: */
+
+    #ourbusiness ul {
+      width: 93%;
+    }
+
+    #ourbusiness-icon {
+      width: 7%;
+      left: -30px;
+    }
+
+    #contacts-button {
+      margin: 15px auto 15px 25vw;
+    }
+
+  }
+
+  */
+  /*BOOTSTRAP - end*/
+
+  /* MAIN - start*/
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+  }
+
+  .smallbody {
+    max-width: 1000px;
+    margin: 0px auto 0px auto;
+    padding: 0px 20px 0px 20px;
+  }
+
+  header {
+    height: 50px;
+  }
+
+  footer {
+    background-color: black;
+    color: white;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  h2 {
+    font-size: small;
+    display: inline-block;
+  }
+
+  h3 {
+    font-size: large;
+  }
+
+  h4 {
+    font-size: large;
+  }
+
+  section {
+    display: table;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  input[type="text"] {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 5px;
+  }
+
+  button[type="submit"] {
+    width: auto;
+    background-color: salmon;
+    color: white;
+    padding: 14px 20px;
+    margin: 10px 0px 0px 0px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  button[type="submit"]:hover {
+    background-color: orchid;
+  }
+
+  /* MAIN - end*/
+
+  /*HEADER - start*/
+
+  header a {
+    text-decoration: none;
+    color: white;
+  }
+
+  header h1 {
+    margin: 20px 0px 0px 0px;
+    float: left;
+    width: 500px;
+    max-width: 50%;
+  }
+
+  .navbar-brand {
+    font-weight: 600;
+  }
+
+  .navbar-default {
+    border: none !important;
+  }
+
+  .navbar-default .navbar-brand {
+    color: green;
+  }
+
+  .navbar-toggle {
+    position: relative;
+    float: left;
+    padding: 9px 10px;
+    margin-right: 15px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: white;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+  }
+
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: gray;
+  }
+
+  .navbar-default .navbar-toggle {
+    border-color: white;
+  }
+
+  .navbar-default .navbar-toggle:hover,
+  .navbar-default .navbar-toggle:focus {
+    background-color: transparent;
+  }
+
+  .navbar-default .navbar-nav > .active > a {
+    color: salmon !important;
+    background-color: transparent !important;
+  }
+
+  .navbar-default .navbar-nav > li > a:hover {
+    color: salmon !important;
+  }
+
+  .nav .navbar {
+    border-radius: 0px !important;
+  }
+
+  .navbar .navbar-nav {
+    display: inline-block !important;
+    float: none !important;
+    vertical-align: top;
+  }
+
+  .navbar .navbar-collapse {
+    text-align: center !important;
+  }
+
+  #myNavbar .glyphicon-search {
+    margin: 15px 0px 0px 10px;
+  }
+
+  nav li {
+    display: inline-block;
+  }
+
+  #home {
+    color: salmon;
+    font-weight: bold;
+  }
+
+  header .glyphicon-search {
+    margin: 15px;
+  }
+
+  /*HEADER - end*/
+
+
+  /*BANNER - start*/
+
+  #banner img {
+    width: 100%;
+  }
+
+  /*BANNER - end*/
+
+  /*ABOUTUS - start*/
+
+  #aboutus .leftcol article {
+    padding-right: 30px;
+  }
+
+  #aboutus .rightcol img {
+    width: 100%;
+  }
+
+  /*ABOUTUS - end*/
+
+  /*OURBUSINESS - start*/
+
+  #ourbusiness {
+    color: white;
+    display: table;
+  }
+
+  #ourbusiness .col-md-6 {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  #ourbusiness .rightcol {
+    position: relative;
+  }
+
+  .ourbusiness-bg {
+    width: 100%;
+    height: 300px;
+  }
+
+  #ourbusiness a {
+    text-decoration: none;
+    color: white;
+  }
+
+  #ourbusiness ul {
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding-right: 15px;
+  }
+
+  #ourbusiness-icon {
+    float: left;
+    position: relative;
+    top: 80px;
+  }
+
+  #ourbusiness-icon img {
+    border-radius: 50%;
+    width: 50px;
+    margin: 0px 0px 30px 0px;
+    position: relative;
+
+  }
+
+  #ourbusiness h2 {
+    padding-top: 20px;
+  }
+
+  #ourbusiness h3 {
+    display: inline-block;
+  }
+
+  #ourbusiness-info {
+    height: auto;
+    position: absolute;
+    top: 5px;
+  }
+
+  /*OURBUSINESS - end*/
+
+  /*NEWS - start*/
+
+  .subnews {
+    padding: 0 !important;
+    margin-bottom: 10px;
+  }
+
+  .subnews article {
+    margin-right: 15px;
+    border: grey 1px solid;
+  }
+
+  .subnews img {
+    width: 100%;
+    height: 150px;
+  }
+
+  .news-contain {
+    padding: 0px 15px 15px 15px;
+  }
+
+  /*NEWS - end*/
+
+  /*CONTACTS - start*/
+
+  #contacts .leftcol {
+    height: auto;
+  }
+
+  #contacts .rightcol {
+    height: auto;
+  }
+
+  #contacts .col-sm-6 {
+    padding: 0px !important;
+  }
+
+  #contacts .rightcol img {
+    width: 100%;
+  }
+
+  .contacts-form {
+    width: 29%;
+    height: 30px;
+    float: left;
+    margin: 0px 10px 10px 0px;
+  }
+
+  #yourmessage {
+    width: 94%;
+    height: 200px;
+    margin-right: 10px;
+  }
+
+  #contacts-button {
+    width: 150px;
+    display: table;
+    text-align: center;
+  }
+
+
+  /*CONTACTS - end*/
+
+  /*FOOTER - start*/
+
+  .info {
+    height: auto;
+    margin: 0px 10px 0px 0px;
+    padding: 25px 0px 0px 0px;
+  }
+
+  .info a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .info ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .info ul li:before {
+    content: "\203A \0020";
+  }
+
+  #youremail {
+    width: 70%;
+    display: inline-block;
+  }
+
+  .info input[type="submit"] {
+    width: auto;
+    height: 32px;
+    display: inline-block;
+    border-radius: 4px;
+    color: black;
+  }
+
+  #copyright p {
+    text-align: center;
+    width: 100%;
+    text-align: center;
+    border-top: 2px white solid;
+    padding: 15px 0px 15px 0px;
+    margin-top: 15px;
+  }
+
+  /*FOOTER - end*/
