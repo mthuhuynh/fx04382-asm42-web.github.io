@@ -1,6 +1,8 @@
-  /*BOOTSTRAP - start*/
-  /* For mobile phones: */
+  /*MEDIA QUERY- start*/
+
   @media only screen and (max-width: 767px) {
+    /* For small devices (portrait tablets, mobile phones) - 767px and down */
+
     .navbar-default {
       background-color: white;
     }
@@ -24,8 +26,8 @@
     .navbar-default .navbar-brand {
       color: green;
       display: inline-block;
-      width: 60%;
-      text-align: center;
+      width: 50%;
+      text-align: right;
     }
 
     header .glyphicon-search {
@@ -37,19 +39,29 @@
     }
 
     #ourbusiness-icon {
-      width: 15%;
+      width: 10%;
       left: 15px;
     }
 
     #ourbusiness ul {
-
       width: 85%;
       text-align: center;
     }
+
+    /*NEWS.HTML*/
+    .newsaside img {
+      width: 100px;
+    }
+
+    /*ABOUTUS.HTML*/
+    .aboutus-name {
+      width: 100%;
+    }
+
   }
 
   @media only screen and (min-width: 768px) {
-    /* For tablets:  */
+    /* For medium devices (landscape tablets) - 768px and up */
 
     header {
       background-color: green;
@@ -84,7 +96,7 @@
     }
 
     #ourbusiness-icon {
-      width: min-content;
+      width: 10%;
       left: 20px;
     }
 
@@ -92,11 +104,20 @@
       margin: 15px auto 15px auto;
     }
 
+    /*NEWS.HTML*/
+    .newsaside img {
+      width: 250px;
+    }
+
+    /*ABOUTUS.HTML*/
+    .aboutus-name {
+      width: 30%;
+    }
+
   }
 
   @media only screen and (min-width: 992px) {
-
-    /* For desktop: */
+    /* For large devices (desktop, laptop) - 992px and up */
 
     #ourbusiness ul {
       width: 93%;
@@ -111,10 +132,18 @@
       margin: 15px auto 15px 25vw;
     }
 
+    /*NEWS.HTML*/
+    .newsaside img {
+      width: 100px;
+    }
+
+    /*ABOUTUS.HTML*/
+    .aboutus-name {
+      width: 20%;
+    }
   }
 
-  */
-  /*BOOTSTRAP - end*/
+  /* MEDIA QUERIES - end*/
 
   /* MAIN - start*/
 
@@ -159,6 +188,11 @@
     display: table;
     width: 100%;
     margin-bottom: 30px;
+  }
+
+  .page-head {
+    text-align: center;
+    padding-bottom: 20px;
   }
 
   input[type="text"] {
@@ -336,15 +370,14 @@
   #ourbusiness-icon {
     float: left;
     position: relative;
-    top: 80px;
+    top: 90px;
   }
 
   #ourbusiness-icon img {
     border-radius: 50%;
-    width: 50px;
-    margin: 0px 0px 30px 0px;
+    max-width: 50px;
+    margin: 0px 0px 40px 0px;
     position: relative;
-
   }
 
   #ourbusiness h2 {
@@ -423,7 +456,6 @@
     text-align: center;
   }
 
-
   /*CONTACTS - end*/
 
   /*FOOTER - start*/
@@ -472,3 +504,91 @@
   }
 
   /*FOOTER - end*/
+
+  /*NEWS.HTML - start*/
+
+  .newsaside {
+    display: block;
+  }
+
+  .newsaside div {
+    background-color: green;
+    display: grid;
+  }
+
+  .newsaside h3 {
+    text-align: center;
+    color: white;
+  }
+
+  .newsaside article {
+    width: 100%;
+    height: auto;
+    display: table;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-bottom: 1px solid gray;
+  }
+
+  .newsaside img {
+    height: 100px;
+    float: left;
+    margin-right: 10px;
+  }
+
+  /*NEWS.HTML - end*/
+
+  /*ABOUTUS.HTML - start*/
+
+  .aboutus-info {
+    padding: 15px;
+  }
+
+  .aboutus-name {
+    float: left;
+  }
+
+  .meetourteam {
+    width: 200px;
+  }
+
+  figcaption {
+    text-align: center;
+  }
+
+  /*ABOUTUS.HTML - end*/
+
+  /*CONTACT.HTML - start*/
+
+  .page-head address {
+    text-align: left;
+    margin: 20px 0px 20px 0px;
+  }
+
+  .page-head ul {
+    text-align: left;
+    margin: 20px 0px 20px 0px;
+  }
+
+  .page-head label {
+    margin-bottom: 25px;
+    width: 40%;
+  }
+
+  .page-head input[type="text"] {
+    width: 58%;
+  }
+
+  #message {
+    height: 60px;
+  }
+
+  #contact-page-button {
+    margin: 15px 0px 15px 0px;
+    float: right;
+  }
+
+  #map {
+    height: 200px;
+    width: 100%;
+  }
