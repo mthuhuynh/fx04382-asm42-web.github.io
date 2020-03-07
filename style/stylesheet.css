@@ -592,3 +592,17 @@
     height: 200px;
     width: 100%;
   }
+
+  /*CONTACT.HTML - end*/
+
+  /*OUR-BUSINESS.HTML - start*/
+
+  .business-page {
+    color: black !important;
+  }
+
+  .business-img {
+    width: inherit;
+  }
+
+  /*OUR-BUSINESS.HTML - end*/
